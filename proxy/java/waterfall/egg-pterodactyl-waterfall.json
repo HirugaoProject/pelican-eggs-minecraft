@@ -36,8 +36,8 @@
     },
     "variables": [
         {
-            "name": "Minecraft Version",
-            "description": "The version of Minecraft that Waterfall was built to support.",
+            "name": "Minecraft バージョン",
+            "description": "Waterfall が対応する Minecraft のバージョン。",
             "env_variable": "MINECRAFT_VERSION",
             "default_value": "latest",
             "user_viewable": true,
@@ -46,8 +46,8 @@
             "field_type": "text"
         },
         {
-            "name": "Waterfall Jar File",
-            "description": "The name of the jar file to use when running Waterfall.",
+            "name": "Waterfall jar ファイル",
+            "description": "Waterfall 実行時に使用する jar ファイル名。",
             "env_variable": "SERVER_JARFILE",
             "default_value": "waterfall.jar",
             "user_viewable": true,
@@ -56,8 +56,8 @@
             "field_type": "text"
         },
         {
-            "name": "Download Link",
-            "description": "A link to the server jar to download the Waterfall jar.",
+            "name": "ダウンロードリンク",
+            "description": "Waterfall jar をダウンロードするためのリンク。",
             "env_variable": "DL_LINK",
             "default_value": "",
             "user_viewable": true,
@@ -66,8 +66,8 @@
             "field_type": "text"
         },
         {
-            "name": "Waterfall build number",
-            "description": "Default is latest.\r\n\r\nif set to latest or an invalid version will grab the latest build number.",
+            "name": "Waterfall ビルド番号",
+            "description": "default は latest。latest か無効な値を指定した場合は最新のビルド番号を取得します。",
             "env_variable": "BUILD_NUMBER",
             "default_value": "latest",
             "user_viewable": true,

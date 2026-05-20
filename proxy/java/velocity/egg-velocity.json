@@ -47,8 +47,8 @@
     "variables": [
         {
             "sort": 1,
-            "name": "Velocity Version",
-            "description": "The Velocity Proxy version to download.\r\n\r\nSet to 'latest ' the download the last stable build.",
+            "name": "Velocity バージョン",
+            "description": "ダウンロードする Velocity Proxy のバージョン。\r\n\r\n'latest' を指定すると最新の安定ビルドを使用します。",
             "env_variable": "VELOCITY_VERSION",
             "default_value": "latest",
             "user_viewable": true,
@@ -61,8 +61,8 @@
         },
         {
             "sort": 2,
-            "name": "Server Jar File",
-            "description": "Server Jarfile, by default this is set to 'velocity.jar'.\r\nSet it to otherwise if you wish to have a different jarfile name.",
+            "name": "サーバー jar ファイル",
+            "description": "サーバー jar ファイルの名前。通常は 'velocity.jar' です。別名にしたい場合は変更してください。",
             "env_variable": "SERVER_JARFILE",
             "default_value": "velocity.jar",
             "user_viewable": true,
@@ -76,8 +76,8 @@
         },
         {
             "sort": 3,
-            "name": "Download Path",
-            "description": "A URL to use to download a server.jar rather than the ones in the install script. This is not user viewable.",
+            "name": "ダウンロードパス",
+            "description": "インストールスクリプト内の jar ではなく、指定した URL からサーバー jar をダウンロードする URL。ユーザーには表示されません。",
             "env_variable": "DL_PATH",
             "default_value": "",
             "user_viewable": false,
@@ -89,8 +89,8 @@
         },
         {
             "sort": 4,
-            "name": "Build Number",
-            "description": "The build number for the velocity release.\r\n\r\nLeave at latest to always get the latest version. Invalid versions will default to latest.",
+            "name": "ビルド番号",
+            "description": "Velocity リリースのビルド番号。\r\n\r\nlatest を指定すると常に最新を使用します。",
             "env_variable": "BUILD_NUMBER",
             "default_value": "latest",
             "user_viewable": true,

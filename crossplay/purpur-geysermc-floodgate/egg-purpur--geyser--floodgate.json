@@ -5,7 +5,7 @@
         "update_url": "https://raw.githubusercontent.com/HirugaoProject/pelican-eggs-minecraft/refs/heads/main/crossplay/purpur-geysermc-floodgate/egg-purpur--geyser--floodgate.json"
     },
     "exported_at": "2026-04-21T19:02:00+00:00",
-    "name": "Purpur-Geyser-Floodgate",
+    "name": "マインクラフト統合版＋Java版（クロスプレイ）",
     "author": "purpur@birdflop.com",
     "uuid": "92364e41-07ba-43fd-b33e-2f655cd7ef61",
     "description": "A drop-in replacement for Paper servers designed for configurability, and new fun and exciting gameplay features, with the addition of GeyserMC and Floodgate",
@@ -43,8 +43,8 @@
     "variables": [
         {
             "sort": 1,
-            "name": "Minecraft Version",
-            "description": "The version of Minecraft to download. \r\n\r\nLeave at latest to always get the latest version. Invalid versions will default to latest.",
+            "name": "Minecraft バージョン",
+            "description": "ダウンロードする Minecraft のバージョン。\r\n\r\nlatest を指定すると常に最新を使用します。",
             "env_variable": "MINECRAFT_VERSION",
             "default_value": "latest",
             "user_viewable": true,
@@ -54,8 +54,8 @@
         },
         {
             "sort": 2,
-            "name": "Server Jar File",
-            "description": "The name of the .jar file to run the server with.",
+            "name": "サーバー jar ファイル",
+            "description": "実行する .jar ファイルの名前。",
             "env_variable": "SERVER_JARFILE",
             "default_value": "server.jar",
             "user_viewable": true,
@@ -65,8 +65,8 @@
         },
         {
             "sort": 3,
-            "name": "Build Number",
-            "description": "The build number for the Purpur release.\r\n\r\nLeave at latest to always get the latest version. Invalid versions will default to latest-stable.\r\n\r\nAccepted values: 'latest-stable' 'latest-successful'",
+            "name": "ビルド番号",
+            "description": "Purpur リリースのビルド番号。\r\n\r\nlatest を指定すると常に最新を使用します。無効な値は latest-stable にフォールバックします。\r\n\r\n受け付ける値: 'latest-stable' 'latest-successful'",
             "env_variable": "BUILD_NUMBER",
             "default_value": "latest",
             "user_viewable": true,

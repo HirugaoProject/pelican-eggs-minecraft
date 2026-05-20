@@ -5,7 +5,7 @@
         "update_url": "https://raw.githubusercontent.com/HirugaoProject/pelican-eggs-minecraft/refs/heads/main/bedrock/bedrock/egg-vanilla-bedrock.json"
     },
     "exported_at": "2026-04-21T19:02:00+00:00",
-    "name": "Vanilla Bedrock",
+    "name": "マインクラフト統合版（バニラ）《推奨》",
     "author": "parker@parkervcp.com",
     "uuid": "a03036b8-8c1b-4c8a-80be-018baad3dcaf",
     "description": "Bedrock Edition (also known as the Bedrock Version, Bedrock Codebase, Bedrock Engine or just Bedrock) refers to the multi-platform family of editions of Minecraft developed by Mojang AB, Microsoft Studios, 4J Studios, and SkyBox Labs. Prior to this term, as the engine originated with Pocket Edition, this entire product family was referred to as \"Pocket Edition\", \"MCPE\", or \"Pocket\/Windows 10 Edition\".",
@@ -35,8 +35,8 @@
     },
     "variables": [
         {
-            "name": "Bedrock Version",
-            "description": "The version of bedrock. (Ex. 1.7.0.13)\r\n\r\nDefault version is latest.",
+            "name": "Bedrock バージョン",
+            "description": "Bedrock のバージョン。デフォルトは最新バージョンです。",
             "env_variable": "BEDROCK_VERSION",
             "default_value": "latest",
             "user_viewable": true,
@@ -49,8 +49,8 @@
             "sort": null
         },
         {
-            "name": "ld lib path",
-            "description": "Dumb reasons to need this",
+            "name": "LD_LIBRARY_PATH",
+            "description": "ライブラリ検索パス。通常は変更不要です。",
             "env_variable": "LD_LIBRARY_PATH",
             "default_value": ".",
             "user_viewable": false,
@@ -63,8 +63,8 @@
             "sort": null
         },
         {
-            "name": "Server Name",
-            "description": "The name for the server",
+            "name": "サーバー名",
+            "description": "サーバーの名前",
             "env_variable": "SERVERNAME",
             "default_value": "Bedrock Dedicated Server",
             "user_viewable": true,
@@ -77,8 +77,8 @@
             "sort": null
         },
         {
-            "name": "Gamemode",
-            "description": "Allowed values: \"survival\", \"creative\", or \"adventure\"",
+            "name": "ゲームモード",
+            "description": "許可される値: \"survival\"、\"creative\"、または \"adventure\"",
             "env_variable": "GAMEMODE",
             "default_value": "survival",
             "user_viewable": true,
@@ -91,8 +91,8 @@
             "sort": null
         },
         {
-            "name": "Difficulty",
-            "description": "Allowed values: \"peaceful\", \"easy\", \"normal\", or \"hard\"",
+            "name": "難易度",
+            "description": "許可される値: \"peaceful\"、\"easy\"、\"normal\"、または \"hard\"",
             "env_variable": "DIFFICULTY",
             "default_value": "easy",
             "user_viewable": true,
@@ -105,8 +105,8 @@
             "sort": null
         },
         {
-            "name": "Allow cheats",
-            "description": "If true then cheats like commands can be used.\r\n\r\nAllowed values: \"true\" or \"false\"",
+            "name": "チートを許可",
+            "description": "true の場合、コマンドなどのチートが使用できます。\r\n\r\n許可される値: \"true\" または \"false\"",
             "env_variable": "CHEATS",
             "default_value": "false",
             "user_viewable": true,
@@ -119,8 +119,8 @@
             "sort": null
         },
         {
-            "name": "Choose World",
-            "description": "If you have multiple world files, Enter the World Folder Name you want to Select to Start the Server",
+            "name": "ワールド選択",
+            "description": "複数のワールドがある場合、起動するワールドフォルダ名を入力します。",
             "env_variable": "WORLDNAME",
             "default_value": "default",
             "user_viewable": true,

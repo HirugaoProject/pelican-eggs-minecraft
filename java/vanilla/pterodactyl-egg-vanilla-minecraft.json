@@ -5,7 +5,7 @@
         "update_url": "https://raw.githubusercontent.com/HirugaoProject/pelican-eggs-minecraft/refs/heads/main/java/vanilla/pterodactyl-egg-vanilla-minecraft.json"
     },
     "exported_at": "2026-03-27T18:15:55+00:00",
-    "name": "Vanilla Minecraft",
+    "name": "マインクラフトJava版（バニラ）",
     "author": "panel@example.com",
     "description": "Minecraft is a game about placing blocks and going on adventures. Explore randomly generated worlds\nand build amazing things from the simplest of homes to the grandest of castles. Play in Creative\nMode with unlimited resources or mine deep in Survival Mode, crafting weapons and armor to fend off\ndangerous mobs. Do all this alone or with friends.",
     "features": [
@@ -38,8 +38,8 @@
     },
     "variables": [
         {
-            "name": "Server Jar File",
-            "description": "The name of the server jarfile to run the server with.",
+            "name": "サーバー jar ファイル",
+            "description": "実行するサーバー jar ファイルの名前。",
             "env_variable": "SERVER_JARFILE",
             "default_value": "server.jar",
             "user_viewable": true,
@@ -48,8 +48,8 @@
             "field_type": "text"
         },
         {
-            "name": "Server Version",
-            "description": "The version of Minecraft Vanilla to install. Use \"latest\" to install the latest version, or use\n\"snapshot\" to install the latest snapshot. Go to Settings > Reinstall Server to apply.",
+            "name": "サーバー バージョン",
+            "description": "インストールする Vanilla Minecraft のバージョン。\"latest\" で最新を、\"snapshot\" で最新スナップショットを選択します。設定 > Reinstall Server で再インストールを適用してください。",
             "env_variable": "VANILLA_VERSION",
             "default_value": "latest",
             "user_viewable": true,

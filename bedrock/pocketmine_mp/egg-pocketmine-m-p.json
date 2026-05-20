@@ -5,7 +5,7 @@
         "update_url": "https://raw.githubusercontent.com/HirugaoProject/pelican-eggs-minecraft/refs/heads/main/bedrock/pocketmine_mp/egg-pocketmine-m-p.json"
     },
     "exported_at": "2026-04-21T19:02:00+00:00",
-    "name": "PocketmineMP",
+    "name": "マインクラフト統合版（PocketMine-MP）",
     "author": "info@swisscrafting.ch",
     "uuid": "4c3baab1-67ad-48c7-8acd-eb3deaa0a462",
     "description": "Pocketmine Egg\r\nby onekintaro from swisscrafting.ch\r\nwith the nice help from #eggs Channel on Pelican Discord :)",
@@ -37,8 +37,8 @@
     "variables": [
         {
             "sort": 1,
-            "name": "Version to install",
-            "description": "PocketMine version and PHP version to install.",
+            "name": "インストールするバージョン",
+            "description": "インストールする PocketMine と PHP のバージョン。",
             "env_variable": "VERSION",
             "default_value": "PM5PHP83",
             "user_viewable": true,

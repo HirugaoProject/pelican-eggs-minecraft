@@ -5,7 +5,7 @@
         "update_url": "https://raw.githubusercontent.com/HirugaoProject/pelican-eggs-minecraft/refs/heads/main/java/fabric/egg-pterodactyl-fabric.json"
     },
     "exported_at": "2024-11-13T15:26:34+00:00",
-    "name": "Fabric",
+    "name": "マインクラフトJava版（Fabric）",
     "author": "accounts@bofanodes.io",
     "description": "Fabric is a modular modding toolchain targeting Minecraft 1.14 and above, including snapshots.",
     "features": [
@@ -38,8 +38,8 @@
     },
     "variables": [
         {
-            "name": "Server Jar File",
-            "description": "The name of the server jarfile to run the server with.",
+            "name": "サーバー jar ファイル",
+            "description": "実行するサーバー jar ファイルの名前。",
             "env_variable": "SERVER_JARFILE",
             "default_value": "server.jar",
             "user_viewable": true,
@@ -48,8 +48,8 @@
             "field_type": "text"
         },
         {
-            "name": "Minecraft Version",
-            "description": "The version of Minecraft to install. Use \"latest\" to install the latest version, or use \"snapshot\" to install the latest snapshot.",
+            "name": "Minecraft バージョン",
+            "description": "インストールする Minecraft のバージョン。\"latest\" で最新を、\"snapshot\" で最新スナップショットを指定します。",
             "env_variable": "MC_VERSION",
             "default_value": "latest",
             "user_viewable": true,
@@ -58,8 +58,8 @@
             "field_type": "text"
         },
         {
-            "name": "Fabric Version",
-            "description": "The version of Fabric to install.",
+            "name": "Fabric バージョン",
+            "description": "インストールする Fabric のバージョン。",
             "env_variable": "FABRIC_VERSION",
             "default_value": "latest",
             "user_viewable": true,
@@ -68,8 +68,8 @@
             "field_type": "text"
         },
         {
-            "name": "Fabric Loader Version",
-            "description": "The version of Fabric Loader to install.",
+            "name": "Fabric Loader バージョン",
+            "description": "インストールする Fabric Loader のバージョン。",
             "env_variable": "LOADER_VERSION",
             "default_value": "latest",
             "user_viewable": true,

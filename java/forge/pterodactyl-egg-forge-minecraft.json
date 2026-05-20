@@ -5,7 +5,7 @@
         "update_url": "https://raw.githubusercontent.com/HirugaoProject/pelican-eggs-minecraft/refs/heads/main/java/forge/pterodactyl-egg-forge-minecraft.json"
     },
     "exported_at": "2025-12-31T13:05:02+00:00",
-    "name": "Forge Minecraft",
+    "name": "マインクラフトJava版（Forge）",
     "author": "panel@example.com",
     "description": "Minecraft Forge Server. Minecraft Forge is a modding API (Application Programming Interface), which\nmakes it easier to create mods, and also make sure mods are compatible with each other.",
     "features": [
@@ -37,8 +37,8 @@
     },
     "variables": [
         {
-            "name": "Build Type",
-            "description": "The type of server jar to download from forge.\r\n\r\nValid types are \"recommended\" and \"latest\".",
+            "name": "ビルドタイプ",
+            "description": "ダウンロードする Forge サーバー jar の種類。\r\n\r\n指定できる値は \"recommended\" と \"latest\" です。",
             "env_variable": "BUILD_TYPE",
             "default_value": "recommended",
             "user_viewable": true,
@@ -47,8 +47,8 @@
             "field_type": "text"
         },
         {
-            "name": "Forge Version",
-            "description": "The full exact version.\r\n\r\nEx. 1.15.2-31.2.4\r\n\r\nOverrides MC_VERSION and BUILD_TYPE. If it fails to download the server files it will fail to\ninstall.",
+            "name": "Forge バージョン",
+            "description": "完全な Forge バージョン。\r\n\r\n例: 1.15.2-31.2.4。\r\n\r\nMC_VERSION と BUILD_TYPE より優先されます。ダウンロードに失敗した場合はインストールが失敗します。",
             "env_variable": "FORGE_VERSION",
             "default_value": "",
             "user_viewable": true,
@@ -57,8 +57,8 @@
             "field_type": "text"
         },
         {
-            "name": "Minecraft Version",
-            "description": "The version of minecraft you want to install for.\r\n\r\nLeaving latest will install the latest recommended version.",
+            "name": "Minecraft バージョン",
+            "description": "インストールする Minecraft のバージョン。\r\n\r\nlatest を指定すると最新の推奨版をインストールします。",
             "env_variable": "MC_VERSION",
             "default_value": "latest",
             "user_viewable": true,
@@ -67,8 +67,8 @@
             "field_type": "text"
         },
         {
-            "name": "Server Jar File",
-            "description": "The name of the Jarfile to use when running Forge version below 1.17.",
+            "name": "サーバー jar ファイル",
+            "description": "Forge 1.17 未満で実行する際に使用する jar ファイルの名前。",
             "env_variable": "SERVER_JARFILE",
             "default_value": "server.jar",
             "user_viewable": true,

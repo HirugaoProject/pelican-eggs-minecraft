@@ -5,7 +5,7 @@
         "update_url": "https://raw.githubusercontent.com/HirugaoProject/pelican-eggs-minecraft/refs/heads/main/bedrock/nukkit/egg-nukkit.json"
     },
     "exported_at": "2026-04-21T19:02:00+00:00",
-    "name": "Nukkit",
+    "name": "マインクラフト統合版（Nukkit）",
     "author": "parker@parkervcp.com",
     "uuid": "5669130a-d4a2-4a80-88b6-9edd2d9484bc",
     "description": "Nukkit is a Nuclear-Powered Server Software For Minecraft: Pocket Edition\r\n\r\nhttps:\/\/cloudburstmc.org",
@@ -36,8 +36,8 @@
     },
     "variables": [
         {
-            "name": "Server Jar File",
-            "description": "The name of the server jarfile to run the server with.",
+            "name": "サーバー jar ファイル",
+            "description": "サーバー起動時に使用する jar ファイルの名前。",
             "env_variable": "SERVER_JARFILE",
             "default_value": "server.jar",
             "user_viewable": true,
@@ -47,8 +47,8 @@
             "field_type": "text"
         },
         {
-            "name": "Download Path",
-            "description": "A URL to use to download Nukkit rather than building it on the server. This is not user viewable. Use <code>{{DL_VERSION}}<\/code> in the URL to automatically insert the assigned version into the URL. If you do not enter a URL Spigot will build directly in the container (this will fail on low memory containers).",
+            "name": "ダウンロードパス",
+            "description": "Nukkit をサーバー上でビルドする代わりにダウンロードする URL。ユーザーには表示されません。URL 内で <code>{{DL_VERSION}}</code> を使うと割り当てられたバージョンが自動挿入されます。URL を入力しない場合は Spigot がコンテナ内で直接ビルドされます（低メモリ環境では失敗することがあります）。",
             "env_variable": "DL_PATH",
             "default_value": "",
             "user_viewable": false,
@@ -58,8 +58,8 @@
             "field_type": "text"
         },
         {
-            "name": "nukkit version",
-            "description": "The version of Nukkitt to download (using the --rev tag). Use \"latest\" for latest.",
+            "name": "Nukkit バージョン",
+            "description": "ダウンロードする Nukkit のバージョン (--rev タグを使用)。\"latest\" で最新を指定します。",
             "env_variable": "NUKKIT_VERSION",
             "default_value": "latest",
             "user_viewable": true,
